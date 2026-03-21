@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "136385981122",
+    "project_id": "trackernaviogps-b8f13",
+    "storage_bucket": "trackernaviogps-b8f13.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136385981122:android:1f9ce8eb2025361eeca95b",
+        "android_client_info": {
+          "package_name": "com.naviogps.tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZemsVltMH19iF9u_rp2NprpdTLznWXPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
