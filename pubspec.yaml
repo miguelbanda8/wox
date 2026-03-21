@@ -46,7 +46,7 @@ dependencies:
   geolocator: ^9.0.2
   flutter_local_notifications: ^14.1.5
   path_provider: 2.0.12
-  syncfusion_flutter_pdfviewer: 21.2.6
+  syncfusion_flutter_pdfviewer: 20.4.54
   sliding_up_panel: ^2.0.0+1
   font_awesome_flutter: 10.4.0
   curved_navigation_bar: ^1.0.3
