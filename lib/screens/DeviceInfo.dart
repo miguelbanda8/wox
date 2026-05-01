@@ -14,8 +14,9 @@ import 'package:gpspro/services/APIService.dart';
 import 'package:gpspro/theme/CustomColor.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:charts_flutter/flutter.dart' as charts;
+import 'package:charts_flutter_fork/flutter.dart' as charts;
 import 'package:flutter/material.dart' as m;
+
 
 import '../store/device.dart';
 
