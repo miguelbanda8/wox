@@ -384,12 +384,11 @@ packages:
   google_maps_cluster_manager:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: f00b2472430090329bc671a36f8d3fe6a3179f54
-      url: "https://github.com/bpillon/google_maps_cluster_manager.git"
-    source: git
-    version: "3.0.0+1"
+      name: google_maps_cluster_manager
+      sha256: "70b22860e25be6d3fb391a4823b76da7c137734969c27f7b6fc1d67d1c7fa143"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.0"
   google_maps_flutter:
     dependency: "direct main"
     description:
@@ -418,10 +417,10 @@ packages:
     dependency: "direct main"
     description:
       name: google_maps_flutter_platform_interface
-      sha256: "970c8f766c02909c7be282dea923c971f83a88adaf07f8871d0aacebc3b07bb2"
+      sha256: "6060779f020638a8eedeb0fb14234818e5fa32ec45a4653d6428ab436e2bbc64"
       url: "https://pub.dev"
     source: hosted
-    version: "2.11.1"
+    version: "2.4.3"
   http:
     dependency: "direct main"
     description:
