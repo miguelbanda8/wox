@@ -1,23 +1,24 @@
 workflows:
-  ios-release:
-    name: iOS Release Build
-    max_build_duration: 60
-
+  ios-workflow:
+    name: iOS Workflow
     environment:
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: com.trackmi.app
-
+      flutter: 3.24.5
+      xcode: latest 
+      cocoapods: default
+    triggering:
+      events:
+        - push
     scripts:
-      - name: Install dependencies
-        script: |
-          flutter pub get
+      - name: Instalar Dependencias
+        script: flutter pub get
 
-      - name: Build IPA
+      - name: Configurar Firma de Apple
         script: |
-          flutter build ipa --release
+          keychain initialize
+          xcode-project use-profiles
 
-    publishing:
-      app_store_connect:
-        auth: integration
-        submit_to_testflight: true
+      - name: Compilar IPA para App Store
+        script: flutter build ipa --release --export-options-plist=/Users/builder/export_options.plist --code-sign-style=manual
+
+    artifacts:
+      - build/ios/ipa/*.ipa
